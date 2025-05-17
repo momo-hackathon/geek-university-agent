@@ -3,7 +3,7 @@ import { openai } from '@ai-sdk/openai';
 import { web3KnowledgeTool } from '../tools/web3Knowledge';
 import { memory } from '../memories';
 
-const llm = openai('gpt-4o');
+const llm = openai('gpt-4o-mini');
 
 export const web3TutorAgent = new Agent({
   name: 'web3_tutor',
